@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeBites - Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./assets/image/finallogo.png" alt="Home Logo">
+            </div>
+            <div class="nav-container">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li class="dropdown">
+                      <a href="#">Pages <i class="fas fa-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </li>
+                </ul>
+                <button class="signup-btn">
+                    SignUp <span class="arrow"><i class="fas fa-arrow-right"></i></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>From Our Kitchen to Your Table, Fresh Every Day</h1>
+            <p>Enjoy the goodness of fresh, flavorful food delivered straight to you, ready to brighten your day with every bite!</p>
+            <button class="explore-btn">
+                Explore More <span class="arrow"><i class="fas fa-arrow-right"></i></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="journey text-dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 position-relative">
+                    <div class="journey-images">
+                        <div class="journey-main-image">
+                            <img src="./assets/image/about-1.jpg" alt="Main Dish">
+                        </div>
+                        <div class="journey-small-image">
+                            <img src="./assets/image/about-2.jpg" alt="Small Dish">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="journey-content">
+                        <span class="subtitle">About Us</span>
+                        <h2>Join us on our journey to celebrate the art of food.</h2>
+                        <div class="quote-box">
+                            <p class="quote">You don’t have to cook fancy or complicated masterpieces – just good food from fresh ingredients.</p>
+                            <p class="author">- Julia Child</p>
+                        </div>
+                        <p>We use only the freshest ingredients, sourced locally whenever possible, to create dishes that are as wholesome as they are delicious. Our team of chefs works tirelessly to perfect every recipe, ensuring that each bite is packed with flavor and love.</p>
+                        <div class="buttons">
+                            <button class="btn-primary">Learn More  
+                                <span class="arrow"><i class="fas fa-arrow-right"></i></span>
+                            </button>
+                            <button class="btn-outline-primary">
+                                <a href="contact.html">Contact Us  
+                                    <span class="arrow"><i class="fas fa-arrow-right"></i></span>
+                                </a>
+                            </button>
+                        </div>   
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section py-5">
+        <div class="container">
+            <h4>Our Specials</h4>
+            <h2>Discover a variety of dishes crafted with care.</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active">All </button>
+                <button class="filter-btn">Vegetarian </button>
+                <button class="filter-btn">Beverages  </button>
+            </div>
+            <div class="row" style="display: flex; justify-content: center; margin-top: 20px;">
+                <div class="col-md-3 menu-item">
+                    <div class="menu-card">
+                        <span class="tag">Rice & Curry</span>
+                        <h5>A Taste in Every Bite </h5>
+                        <p>Experience the soul of Sri Lankan cuisine with Rice and Curry.</p>
+                        <img src="./assets/image/courses-1.jpg" alt="Rice & Curry">
+                    </div>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <div class="menu-card">
+                        <span class="tag">Koththu</span>
+                        <h5>Cheesy, and delicious</h5>
+                        <p>Every bite is a perfect balance of spice and creamy goodness.</p>
+                        <img src="./assets/image/courses-3.jpg" alt="Koththu">
+                    </div>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <div class="menu-card">
+                        <span class="tag">Mango Juice</span>
+                        <h5>Refreshing and natural</h5>
+                        <p>Enjoy a chilled glass of fresh mango juice. Just have a try!</p>
+                        <img src="./assets/image/beverage-1.jpg" alt="Mango Juice">
+                    </div>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <div class="menu-card">
+                        <span class="tag">Milk Tea</span>
+                        <h5>A warm cup of comfort</h5>
+                        <p>The perfect blend of tea and milk for a rich flavor</p>
+                        <img src="./assets/image/beverage-2.jpg" alt="Milk Tea">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services py-5">
+        <div class="container">
+            <h4>What We Do</h4>
+            <h2>Learn More What We Do - Our Services</h2>
+            <div class="row" style="display: flex; justify-content: center;">
+                <div class="col-md-4 service-item">
+                    <div class="service-card">
+                        <img src="./assets/image/icon-1.png" alt="Fresh Ingredients">
+                        <h3>Fresh Ingredients</h3>
+                        <p>We handpick the finest, locally sourced ingredients to create every dish to give healthy life Just have a try and stay healthy forever.</p>
+                        <a class="learn-more-btn">Learn More  <span class="arrow"><i class="fas fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-card">
+                        <img src="./assets/image/icon-2.png" alt="Quality & Taste">
+                        <h3>Quality & Taste</h3>
+                        <p>Our chefs are dedicated to bringing out the best in every recipe, ensuring bold flavors and rich textures Just have a try!.</p>
+                        <a href="#" class="learn-more-btn">Learn More  <span class="arrow"><i class="fas fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-card">
+                        <img src="./assets/image/icon-3.png" alt="Customizable Options">
+                        <h3>Customizable Options</h3>
+                        <p>From vegetarian to gluten-free, we offer menu options that cater to a variety of dietary needs and preferences.</p>
+                        <a class="learn-more-btn">Learn More  <span class="arrow"><i class="fas fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Hero2 Section -->
+    <section id="support" class="hero2">
+        <div class="hero2-content">
+            <h1>A Journey of Flavors, Crafted with Passion</h1>
+            <p>It all started with a passion for food and a dream of bringing people together through great meals...</p>
+            <a class="btn">Order Now</a>
+        </div>
+    </section>
+
+     <!-- Team Section -->
+    <section class="team py-5">
+        <div class="container">
+            <h4>Team Members</h4>
+            <h2 class="text-center mb-5">Let's Meet Our Team</h2>
+            <div class="row">
+                <!-- Team Member 1 -->
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <img src="./assets/image/team-1.jpg" alt="Velvet Dawn">
+                        <div class="team-info">
+                            <h3>Velvet Dawn</h3>
+                            <p class="role">Executive Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <img src="./assets/image/team-2.jpg" alt="Crimson Vale">
+                        <div class="team-info">
+                            <h3>Crimson Vale</h3>
+                            <p class="role">Sous Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <img src="./assets/image/team-3.jpg" alt="Nova Drift">
+                        <div class="team-info">
+                            <h3>Nova Drift</h3>
+                            <p class="role">Sous Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <img src="./assets/image/team-4.jpg" alt="Blaze Storm">
+                        <div class="team-info">
+                            <h3>Blaze Storm</h3>
+                            <p class="role">Junior Chef</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonial Section -->
+    <section class="testimonial-section py-5">
+        <div class="container text-center">
+            <p class="feedback-title">Feedback</p>
+            <h2 class="testimonial-heading">Trusted By Thousands Of People</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial">
+                            <img src="./assets/image/testimonial-1.jpg" alt="User Image" class="testimonial-img">
+                            <p class="testimonial-text">"The cheese koththu was a delightful twist on the classic dish! The gooey melted cheese beautifully blends with the flavors of the koththu."</p>
+                            <p class="testimonial-author">David Lee</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial">
+                            <img src="./assets/image/testimonial-2.jpg" alt="User Image" class="testimonial-img">
+                            <p class="testimonial-text">"The rice and curry was absolutely delicious! The spices were perfectly balanced, and the portion size was generous."</p>
+                            <p class="testimonial-author">Sarah Johnson</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial">
+                            <img src="./assets/image/testimonial-3.jpg" alt="User Image" class="testimonial-img">
+                            <p class="testimonial-text">"I loved the mango juice! It was so refreshing and tasted just like fresh mangoes. A perfect drink for a hot day."</p>
+                            <p class="testimonial-author">Michael Brown</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+      
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Left Section (About) -->
+                <div class="footer-about">
+                    <h3><span class="highlight">Home</span>Bites</h3>
+                    <p>We take pride in serving freshly prepared dishes crafted with the finest ingredients. Whether you're here for a quick bite or a grand feast, our menu offers something for everyone.</p>
+                    <div class="social-links">
+                        <a><i class="fab fa-twitter"></i></a>
+                        <a><i class="fab fa-facebook"></i></a>
+                        <a><i class="fab fa-youtube"></i></a>
+                        <a><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <!-- Middle Section (Address & Quick Links) -->
+                <div class="footer-middle">
+                    <div class="footer-address">
+                        <h4>Address</h4>
+                        <p><i class="fas fa-map-marker-alt"></i>  123 Street, Jaffna, Sri Lanka</p>
+                        <p><i class="fas fa-phone"></i>  +077 123 4567</p>
+                        <p><i class="fas fa-envelope"></i>  info@homebites.com</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home"><i class="fa fa-angle-right"></i>About Us</a></li>
+                            <li><a href="#about"><i class="fa fa-angle-right"></i>Contact Us</a></li>
+                            <li><a href="#services"><i class="fa fa-angle-right"></i>Our Services</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Terms & Conditions</a></li>
+                            <li><a href="#support"><i class="fa fa-angle-right"></i>Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Right Section (Newsletter) -->
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Where Every Bite Feels Like Home.</p>
+                            <div class="input-container">
+                                <input type="email" placeholder="Your email" class="email-input">
+                                <button class="signup-btn">SignUp</button>
+                            </div>
+                        </div>
+            <div class="footer-bottom">
+              <p class="left">&copy; <span class="highlight">HomeBites</span>, All Rights Reserved.</p>
+              <p class="right">Designed By <span class="highlight">Uki Cohort 11.</span></p>
+          </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
